@@ -8,10 +8,10 @@ using ClassStudentLibrary;
 namespace Programm
 {
     class Program
-    {
+    {        
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hello Stas");
             StudentService service = new StudentService();
             service.Add(new Student
             {
